@@ -1,9 +1,9 @@
 # TEST BLOG PROJECT
 ## SUMMARY
-Create a blog-like system that allows users to register an account; through that account, users can create their own blog posts which will show up on the front page or the user's own page.
+Create a blog-like system that allows users to register an account; through that account, users can create their own blog posts which will show up on the front page.
 
 ## LANGUAGE
-* Ruby on Rails
+* PHP
 * MySQL
 
 ## DEVELOPMENT FLOW
@@ -34,12 +34,21 @@ Create a blog-like system that allows users to register an account; through that
 * Blog
   * Logged-in users should be able to do the following in regards to blogs
     * Create Function
+	* Edit Function
+
+* Blog Posts
+  * Logged-in users should be able to do the following in regards to posts in their own blog
+    * Create Function
     * Edit Function
     * Delete Function
 
 * Blog List
   * Show a list of all created blogs
   * Can search by blog title or username
+  
+* Blog Post List
+  * Show a list of all created posts in the selected blog
+  * Can search posts by title
 
 * Like Function
   * Allow logged-in users to like blog posts of other users
