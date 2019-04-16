@@ -33,6 +33,7 @@ Create a blog-like system that allows users to register an account; through that
 	  * Edit Function
   * User Profile should contain the user's registered information
   * Can specify url of their blog page
+    * URL should default to username
   * User Profile should also include the following information
     * Description about what the user will blog about
     * A header image for their blog
@@ -47,11 +48,17 @@ Create a blog-like system that allows users to register an account; through that
 * Blog Post List
   * Show a list of summaries of existing Blog Posts
   * Can search by post title or username
-  * Blog Post Links should follow the url specified by the user in their own profile
+  * Blog Post Links should follow the URL specified by the user in their own profile
 
 * User Blog Post List
+  * This page will be considered as the user's blog page
+  * URL should be based on the URL specified by the user in their own profile
   * Similar to Blog Post list only it shows the blog posts of a specific user
-  * Also shows some information about the user such as their name, email, blog description
+  * Should show existing information about the user such as their name, email, blog description, and header image
+
+* Post Detail
+  * Show entire content of a post
+  * URL should be based on the URL specified by the user in their own profile
 
 * Like Function
   * Allow logged-in users to like Blog Posts of other users
