@@ -28,33 +28,33 @@ Create a blog-like system that allows users to register an account; through that
 * Logout Function
   * Allow logged-in users to logout
 
-* Edit Profile
-  * Allow logged-in users to edit their profile
+* User Profile
+  * Logged-in users should be able to do the following in regards to their profile
+	  * Edit Function
+  * User Profile should contain the user's registered information
+  * User Profile may also include information about the user's posts such as 
+    description of what the user will post / blog about
 
-* Blog
-  * Logged-in users should be able to do the following in regards to blogs
-    * Create Function
-	* Edit Function
-
-* Blog Posts
-  * Logged-in users should be able to do the following in regards to posts in their own blog
+* Posts
+  * Logged-in users should be able to do the following in regards to posts
     * Create Function
     * Edit Function
     * Delete Function
+  * One post can only have one user / One user can have many posts
 
-* Blog List
-  * Show a list of all created blogs
-  * Can search by blog title or username
-  
-* Blog Post List
-  * Show a list of all created posts in the selected blog
-  * Can search posts by title
+* Post List
+  * Show a list of all created posts
+  * Can search by post title or username
+
+* User Post List (Blog)
+  * Similar to post list only it shows the posts of a specific user
+  * Also shows some information about the user such as their name, email, blog description
 
 * Like Function
-  * Allow logged-in users to like blog posts of other users
+  * Allow logged-in users to like posts of other users
 
 * Comment Function
-  * Allow logged-in users to comment on blog posts of other users
+  * Allow logged-in users to comment on posts of other users
 
 ## ADMIN SIDE FUNCTIONS
 * Login Function
@@ -73,19 +73,19 @@ Create a blog-like system that allows users to register an account; through that
 * Logout Function
   * Allow admin to logout
 
-* Blog List
-  * Show list of all created user blogs
-  * Can search by title or usernae
+* Post List
+  * Show list of all created user posts
+  * Can search by post title or username
 
-* Edit Blog Post Function
+* Edit Post Function
   * Allow admin to edit any posts
 
-* Delete Blog Post Function
+* Delete Post Function
   * Allow admin to delete any posts
 
 * Comment List
   * Show lists of all comments made by users
-  * Can show only comments of a specific post
+  * Can specify to show only comments of one post
 
 * Delete Comment Function
   * Allow admin to delete any comments
