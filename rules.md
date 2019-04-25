@@ -25,6 +25,7 @@
     * Milestone name will be for each week since the project development started 
       * Ex. Week 1 or 1st Week
 ### Branch
+* Set [develop] as the default branch
 * Set [Require pull request reviews before merging] in repo settings
 * Create one branch for one issue
   * Branch should be created from develop branch
