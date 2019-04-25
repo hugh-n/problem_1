@@ -9,12 +9,15 @@
 ### Projects & Issues
 * Create two projects for admin and user
 * Separate cards in projects into four groups
-  * Todo
+  * To do
   * In progress
-  * Finished
-    * Finished means development is finished and pull request has been made
+  * Under Review
+    * Pull request has been made
+    * Review has been requested
   * Approved
-    * Pull request has been approved and merged
+    * Pull request has been approved
+  * Done
+    * Pull request has been merged
 * Create issues using the cards
   * One issue = One Function
     * Ex. Migrations, Seed Data, Login Function
@@ -22,7 +25,8 @@
     * Milestone name will be for each week since the project development started 
       * Ex. Week 1 or 1st Week
 ### Branch
-* Create one branch for issue
+* Set [Require pull request reviews before merging] in repo settings
+* Create one branch for one issue
   * Branch should be created from develop branch
   * Name of the branch should be: feature/#{issue_no}_{function_name}
 ### GitHub Commit
@@ -51,6 +55,7 @@
 * Do not use the same [id] twice in one HTML file
 * Keep [class] names consistent for all HTML files
 * As much as possible, do not use inline CSS or Javascript
+* Use [route('{route_name}')] for links if possible
 
 ### CSS
 * Prioritize PC design first
